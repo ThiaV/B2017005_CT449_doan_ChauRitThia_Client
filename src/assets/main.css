@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+    --font-1:'Jost', sans-serif;
+}
+
+.f-1{
+    font-family: var(--font-1);
+}
+
+#nprogress .bar {
+    background-color: #2696ff00 !important; /* Change this to your desired color */
+}
+.products{
+    margin: 100px;
+
+    width: 470px;
+    height: 470px;
+    background-image: url(./bag.png);
+    background-size: cover;
+    align-self:center;
+
+}
+#sp:hover{
+    color: green;
+}
+li{
+    margin: 14px;
+}
+/* 
+pre {
+    width: 100%;
+    color: white;
+    background-color: black;
+} */
